@@ -6,11 +6,8 @@ export default function footer() {
       <div className="flex justify-between e w-[2600px] m-auto max-w-[90%]">
         {/* Columna 1 */}
         <div>
-          <h2 className="text-xl font-bold text-white mb-4">Cat Paradox</h2>
-          <p className="text-sm">
-            Ropa anime oscura con estilo único. “Sueñan los gatos con
-            paradojas?”
-          </p>
+          <h2 className="text-xl font-bold text-white mb-4">CAMSA</h2>
+          <p className="text-sm">"Venta de maquinas de estampado”</p>
         </div>
 
         {/* Columna 2 */}
@@ -59,7 +56,7 @@ export default function footer() {
 
       {/* Línea inferior */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Cat Paradox. Todos los derechos reservados.
+        © {new Date().getFullYear()} CAMSA. Todos los derechos reservados.
       </div>
     </footer>
   );
