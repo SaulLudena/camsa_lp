@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function aboutus() {
   return (
-    <div class="w-[2600px] m-auto max-w-[90%] h-[70vh] items-center flex mt-40">
+    <div className="w-[2600px] m-auto max-w-[90%] h-[70vh] items-center flex mt-40">
       <div className="flex flex-col w-full">
         <h1 className="text-5xl mb-20">NOSOTROS.</h1>
         <div className="grid  grid-cols-12 w-full gap-20">
