@@ -18,17 +18,18 @@ const product_list = [
   {
     id: 1,
     images: [
-      "https://www.timg.pe/cdn/shop/collections/Estampadoras-de-escritorio-y-hornos-5.webp?v=1715875767&width=750",
-      "https://www.timg.pe/cdn/shop/collections/Estampadoras-de-escritorio-y-hornos-5.webp?v=1715875767&width=750",
+      "https://i.pinimg.com/736x/20/9b/6b/209b6bfbea35f93084211b2ffd3700f8.jpg",
+      "https://i.pinimg.com/1200x/a5/67/4c/a5674c4086f6a9876fc9feb365204eb9.jpg",
     ],
     title: "MK-01",
+    subtitle: "Comparta y fácil de usar",
     description: [
-      "Camiseta de algodón 100% en color blanco.",
-      "La plancha de sublimación MK-01 está diseñada para ofrecerte facilidad, precisión y resultados de calidad profesional desde el primer uso. Personaliza camisetas, tazas y más, con un acabado duradero que hará destacar cada diseño.",
+      "Estampadora de sublimación de escritorio.",
+      "La MK-01 está diseñada para quienes recién inician en el mundo de la personalización. Compacta y fácil de usar, ofrece resultados de alta calidad en camisetas, tazas y pequeños objetos, garantizando un acabado duradero y profesional.",
     ],
     description_items: [
-      "Calor uniforme para impresiones nitidas",
-      "Fácil de usar con controles digitales",
+      "Calor uniforme para impresiones nítidas",
+      "Controles digitales intuitivos",
       "Diseño compacto y portátil",
     ],
   },
@@ -36,17 +37,18 @@ const product_list = [
     id: 2,
     images: [
       "https://www.timg.pe/cdn/shop/collections/Estampadoras-de-escritorio-y-hornos-5.webp?v=1715875767&width=750",
-      "https://www.timg.pe/cdn/shop/collections/Estampadoras-de-escritorio-y-hornos-5.webp?v=1715875767&width=750",
+      "https://i.pinimg.com/736x/6c/20/8e/6c208e0e9b45f91e535eb5eedf37772f.jpg",
     ],
-    title: "Camiseta básica blanca",
+    title: "MK-02",
+    subtitle: "Supercifie amplia y versátil",
     description: [
-      "Camiseta de algodón 100% en color blanco.",
-      "La plancha de sublimación MK-01 está diseñada para ofrecerte facilidad, precisión y resultados de calidad profesional desde el primer uso. Personaliza camisetas, tazas y más, con un acabado duradero que hará destacar cada diseño.",
+      "Estampadora multifuncional de alto rendimiento.",
+      "La MK-02 está pensada para producción continua y mayor versatilidad. Con superficie de prensado más amplia y ajustes precisos de presión, temperatura y tiempo, permite trabajar en camisetas, gorras, rompecabezas y otros productos con acabados profesionales.",
     ],
     description_items: [
-      "Calor uniforme para impresiones nitidas",
-      "Fácil de usar con controles digitales",
-      "Diseño compacto y portátil",
+      "Área de trabajo más grande para proyectos variados",
+      "Sistema de ajuste de presión mejorado",
+      "Estructura reforzada para uso intensivo",
     ],
   },
 ];

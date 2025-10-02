@@ -1,47 +1,46 @@
-import { FaTiktok } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-export default function contactus() {
+import { FaTiktok, FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
+
+export default function ContactUs() {
   return (
-    <div className="w-[2600px] m-auto max-w-[90%] h-[70vh] items-center flex mt-40">
+    <div className="w-full max-w-[90%] m-auto min-h-[70vh] flex items-center mt-20 xl:mt-40">
       <div className="flex flex-col w-full">
-        <h1 className="text-5xl mb-20">CONTACTANOS.</h1>
-        <div className="grid  grid-cols-12 w-full gap-20">
-          <div className="col-span-6  grid gap-5 items-center justify-between">
-            <div className="grid  gap-5">
-              <p className="text-3xl text-[#3B3B3B] w-[30rem]">
-                “Our work does make sense only if it is a faithfull witness of
-                his time”
+        <h1 className="text-4xl xl:text-5xl mb-10 xl:mb-20">CONTÁCTANOS.</h1>
+
+        <div className="grid grid-cols-1 xl:grid-cols-12 w-full gap-10 xl:gap-20">
+          {/* Texto */}
+          <div className="xl:col-span-6 flex flex-col justify-center gap-5 order-1">
+            <p className="text-2xl xl:text-3xl text-[#3B3B3B] max-w-[30rem] leading-relaxed">
+              “En CAMSA estamos aquí para asesorarte y ayudarte a elegir la
+              estampadora ideal para tu negocio. Escríbenos y te responderemos
+              con la atención que mereces.”
+            </p>
+          </div>
+
+          {/* Redes Sociales */}
+          <div className="xl:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-5 order-2">
+            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+              <p className="font-semibold">TikTok</p>
+              <p className="text-5xl xl:text-7xl">
+                <FaTiktok />
               </p>
             </div>
-          </div>
-          <div className="col-span-6 ">
-            <div className="grid grid-cols-2 gap-5">
-              <div className="col-span-1  bg-[#E8EDF6] flex items-center justify-between p-10 gap-5 rounded-xl">
-                <p className="font-semibold">Tik tok</p>
-                <p className="text-7xl">
-                  <FaTiktok />
-                </p>
-              </div>
-              <div className="col-span-1  bg-[#E8EDF6] flex items-center justify-between p-10 gap-5 rounded-xl">
-                <p className="font-semibold">Instagram</p>
-                <p className="text-7xl">
-                  <FaInstagram />
-                </p>
-              </div>
-              <div className="col-span-1  bg-[#E8EDF6] flex items-center justify-between p-10 gap-5 rounded-xl">
-                <p className="font-semibold">Whatsapp</p>
-                <p className="text-7xl">
-                  <FaWhatsapp />
-                </p>
-              </div>
-              <div className="col-span-1  bg-[#E8EDF6] flex items-center justify-between p-10 gap-5 rounded-xl">
-                <p className="font-semibold">Facebook</p>
-                <p className="text-7xl">
-                  <FaFacebookF />
-                </p>
-              </div>
+            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+              <p className="font-semibold">Instagram</p>
+              <p className="text-5xl xl:text-7xl">
+                <FaInstagram />
+              </p>
+            </div>
+            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+              <p className="font-semibold">Whatsapp</p>
+              <p className="text-5xl xl:text-7xl">
+                <FaWhatsapp />
+              </p>
+            </div>
+            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+              <p className="font-semibold">Facebook</p>
+              <p className="text-5xl xl:text-7xl">
+                <FaFacebookF />
+              </p>
             </div>
           </div>
         </div>

@@ -3,14 +3,14 @@ import Logo from "../../../public/assets/images/Logo.png";
 import Image from "next/image";
 export default function topnav() {
   return (
-    <div className="w-[2600px] m-auto max-w-[90%] flex items-start ">
+    <div className="w-[2600px] m-auto max-w-[90%] flex items-start  border">
       <div className="flex justify-between  w-full">
         <div className="flex gap-5 justify-between w-full items-center">
-          <div className="flex items-center gap-10 w-full">
+          <div className="flex items-center gap-10 w-full max-[1100px]:justify-between">
             <a href="/" className="bg-[#060E25] px-10 py-15">
               <Image src={Logo} alt="Logo" className="w-30" />
             </a>
-            <ul className="flex gap-3">
+            <ul className="flex gap-3 max-[1100px]:hidden">
               <li className="">
                 <a href="#Home" className="group py-10 grid gap-2">
                   <span className="px-5">Inicio</span>
@@ -36,10 +36,11 @@ export default function topnav() {
                 </a>
               </li>
             </ul>
+            <div className="hidden max-[1100px]:block">hola</div>
           </div>
           <a
             href=""
-            className="bg-[#060E25] p-3 text-white rounded-lg flex items-center gap-2 rounded-tl-2xl"
+            className="bg-[#060E25] p-3 text-white rounded-lg flex items-center gap-2 max-[1100px]:hidden"
           >
             <FaWhatsapp /> <span>Whatsapp</span>
           </a>
