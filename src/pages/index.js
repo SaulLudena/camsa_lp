@@ -2,7 +2,7 @@ import Minicards from "@/components/presentation/minicard/minicards";
 import Topnav from "@/components/topnav/topnav";
 import Presentation from "@/components/presentation/presentation";
 import Products from "@/components/products/products";
-import Aboutus from "@/components/aboutus/aboutus";
+import AboutUs from "@/components/aboutus/aboutus";
 import ContactUs from "@/components/contactus/contactus";
 import Footer from "@/components/footer/footer";
 import Head from "next/head";
@@ -22,7 +22,7 @@ export default function Home() {
       <Presentation />
       <Minicards />
       <Products />
-      <Aboutus />
+      <AboutUs />
       <ContactUs />
       <Footer />
     </>
