@@ -1,6 +1,6 @@
 import { FaTiktok, FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
-export default function contactus() {
+export default function ContactUs() {
   return (
     <div className="w-full max-w-[90%] m-auto min-h-[70vh] flex items-center mt-20 xl:mt-40">
       <div className="flex flex-col w-full">
