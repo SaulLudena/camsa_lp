@@ -3,7 +3,7 @@ import Logo from "../../../public/assets/images/Logo.png";
 import Image from "next/image";
 export default function topnav() {
   return (
-    <div className="w-[2600px] m-auto max-w-[90%] flex items-start  border">
+    <div className="w-[2600px] m-auto max-w-[90%] flex">
       <div className="flex justify-between  w-full">
         <div className="flex gap-5 justify-between w-full items-center">
           <div className="flex items-center gap-10 w-full max-[1100px]:justify-between">

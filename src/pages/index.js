@@ -3,7 +3,7 @@ import Topnav from "@/components/topnav/topnav";
 import Presentation from "@/components/presentation/presentation";
 import Products from "@/components/products/products";
 //import AboutUs from "@/components/aboutus/aboutUs";
-import ContactUs from "@/components/contactus/contactUs";
+import Contactus from "@/components/contactus/contactus";
 import Footer from "@/components/footer/footer";
 import Head from "next/head";
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
       <Products />
 
       {/*    <AboutUs /> */}
-      <ContactUs />
+      <Contactus />
 
       <Footer />
     </>
