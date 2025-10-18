@@ -2,8 +2,8 @@ import Minicards from "@/components/presentation/minicard/minicards";
 import Topnav from "@/components/topnav/topnav";
 import Presentation from "@/components/presentation/presentation";
 import Products from "@/components/products/products";
-import Contactus from "@/components/contactus/contactus";
-import Aboutus from "@/components/aboutus/aboutus";
+import Contact from "@/components/contact/contact";
+import About from "@/components/about/about";
 import Footer from "@/components/footer/footer";
 import Head from "next/head";
 export default function Home() {
@@ -22,8 +22,8 @@ export default function Home() {
       <Presentation />
       <Minicards />
       <Products />
-      <Aboutus />
-      <Contactus />
+      <About />
+      <Contact />
 
       <Footer />
     </>
