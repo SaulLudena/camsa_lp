@@ -1,5 +1,5 @@
 import ProductItem from "./productItem";
-export default function products() {
+export default function Products() {
   return (
     <div className="w-[2600px] m-auto max-w-[90%] flex items-start mt-40">
       <div className="flex flex-col w-full">

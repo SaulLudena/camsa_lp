@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function footer() {
+export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10 mt-20 ">
       <div className="flex justify-between e w-[2600px] m-auto max-w-[90%]">

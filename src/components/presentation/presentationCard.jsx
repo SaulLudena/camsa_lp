@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function presentationCard({ index, image, title, description }) {
+export default function PresentationCard({ index, image, title, description }) {
   return (
     <li className="bg-[#ffffff18] shadow-2xl max-2xl:text-xs">
       <Image

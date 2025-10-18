@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegStar } from "react-icons/fa";
 
-export default function productItem(props) {
+export default function ProductItem(props) {
   const { product, index } = props;
   return (
     <li

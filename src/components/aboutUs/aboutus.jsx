@@ -1,4 +1,5 @@
-export default function AboutUs() {
+import React from "react";
+export default function Aboutus() {
   return (
     <div className="w-full max-w-[90%] m-auto min-h-[70vh] flex items-center mt-40 xl:mt-40">
       <div className="flex flex-col w-full">
