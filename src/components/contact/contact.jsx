@@ -1,45 +1,66 @@
 import React from "react";
-import { FaTiktok, FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
+import {
+  FaTiktok,
+  FaInstagram,
+  FaWhatsapp,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
+
 export default function contact() {
   return (
-    <div className="w-full max-w-[90%] m-auto min-h-[70vh] flex items-center mt-20 xl:mt-40">
+    <div className="w-full max-w-[90%] m-auto min-h-[70vh] flex items-center mt-20 xl:mt-40  mb-20">
       <div className="flex flex-col w-full">
         <h1 className="text-4xl xl:text-5xl mb-10 xl:mb-20">CONTÁCTANOS.</h1>
 
         <div className="grid grid-cols-1 xl:grid-cols-12 w-full gap-10 xl:gap-20">
           {/* Texto */}
           <div className="xl:col-span-6 flex flex-col justify-center gap-5 order-1">
-            <p className="text-2xl xl:text-3xl text-[#3B3B3B] max-w-[30rem] leading-relaxed">
-              “En CAMSA estamos aquí para asesorarte y ayudarte a elegir la
-              estampadora ideal para tu negocio. Escríbenos y te responderemos
-              con la atención que mereces.”
+            <p className="text-2xl xl:text-3xl text-[#3B3B3B] max-w-[45rem] leading-relaxed">
+              “En CAMSA te asesoramos para elegir la estampadora ideal para tu
+              negocio. Escríbenos y recibe la atención que mereces.”
             </p>
           </div>
 
           {/* Redes Sociales */}
           <div className="xl:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-5 order-2">
-            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+            <a
+              href="https://www.tiktok.com/@camsaplanchastermicas"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl hover:bg-[#dbe3f0] transition"
+            >
               <p className="font-semibold">TikTok</p>
               <p className="text-5xl xl:text-7xl">
                 <FaTiktok />
               </p>
-            </div>
-            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+            </a>
+            <a
+              href="https://www.instagram.com/perucamsa_"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl hover:bg-[#dbe3f0] transition"
+            >
               <p className="font-semibold">Instagram</p>
               <p className="text-5xl xl:text-7xl">
                 <FaInstagram />
               </p>
-            </div>
-            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
+            </a>
+            <a
+              href="https://wa.me/51964291450"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl hover:bg-[#dbe3f0] transition"
+            >
               <p className="font-semibold">Whatsapp</p>
-              <p className="text-5xl xl:text-7xl">
+              <p className="text-5xl xl:text-7xl ">
                 <FaWhatsapp />
               </p>
-            </div>
-            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl">
-              <p className="font-semibold">Facebook</p>
+            </a>
+            <div className="bg-[#E8EDF6] flex items-center justify-between p-6 xl:p-10 gap-5 rounded-xl hover:bg-[#dbe3f0] transition">
+              {" "}
+              <p className="font-semibold">Ubicanos</p>
               <p className="text-5xl xl:text-7xl">
-                <FaFacebookF />
+                <FaMapMarkerAlt />
               </p>
             </div>
           </div>

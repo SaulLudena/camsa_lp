@@ -1,6 +1,7 @@
 import React from "react";
 import { FaRegStar } from "react-icons/fa";
-
+import Image from "next/image";
+import Link from "next/link";
 export default function ProductItem(props) {
   const { product, index } = props;
   return (
@@ -19,29 +20,32 @@ export default function ProductItem(props) {
     `}
       >
         <div className="col-span-1">
-          <img
+          <Image
             src={product.images[0]}
-            alt=""
             className="rounded-xl border border-zinc-200 shadow-xl w-full h-full object-cover"
           />
         </div>
         <div className="col-span-1">
-          <img
+          <Image
             src={product.images[1]}
-            alt=""
             className="rounded-xl border border-zinc-200 shadow-xl w-full h-full object-cover"
           />
         </div>
-        <div className="col-span-2 bg-[#060E25] text-white p-8 rounded-2xl">
-          <div className="flex justify-between items-center">
+        <div className="col-span-2 bg-[#060E25] text-white rounded-2xl flex justify-between">
+          <div className="flex justify-between items-center p-8 ">
             <div className="gap-1 grid">
               <p className="text-xl font-semibold">{product.title}</p>
               <p className="text-md">{product.subtitle}</p>
             </div>
-            <p className="text-5xl">
-              <FaRegStar />
-            </p>
           </div>
+          <a
+            href={`https://wa.me/51964291450?text=👋 Hola, me interesa el modelo *${product.title}*. ¿Podrían darme más información? 😊`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl bg-zinc-50 text-[#060E25] flex items-center justify-center gap-2 p-4 m-5 rounded-xl hover:bg-zinc-200 transition"
+          >
+            <span>Me interesa</span>
+          </a>
         </div>
       </div>
 

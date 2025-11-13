@@ -17,7 +17,9 @@ export default function Presentation() {
           </h2>
           <div className="flex max-[1300px]:text-center max-[1500px]:justify-center">
             <a
-              href=""
+              href="https://wa.me/51964291450"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#060E25] p-3 text-white rounded-lg flex items-center gap-2"
             >
               <FaWhatsapp /> <span>Contáctanos</span>

@@ -39,7 +39,9 @@ export default function topnav() {
             <div className="hidden max-[1100px]:block">hola</div>
           </div>
           <a
-            href=""
+            href="https://wa.me/51964291450"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#060E25] p-3 text-white rounded-lg flex items-center gap-2 max-[1100px]:hidden"
           >
             <FaWhatsapp /> <span>Whatsapp</span>

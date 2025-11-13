@@ -1,4 +1,10 @@
 import ProductItem from "./productItem";
+import imgmk1a from "../../../public/assets/images/maquinas/MK1-A.png";
+import imgmk1b from "../../../public/assets/images/maquinas/MK1-B.png";
+import imgmk2a from "../../../public/assets/images/maquinas/MK2-A.png";
+import imgmk2b from "../../../public/assets/images/maquinas/MK2-B.png";
+import imgmk3a from "../../../public/assets/images/maquinas/MK3-A.png";
+import imgmk3b from "../../../public/assets/images/maquinas/MK3-B.png";
 export default function Products() {
   return (
     <div className="w-[2600px] m-auto max-w-[90%] flex items-start mt-40">
@@ -17,10 +23,7 @@ export default function Products() {
 const product_list = [
   {
     id: 1,
-    images: [
-      "https://i.pinimg.com/736x/20/9b/6b/209b6bfbea35f93084211b2ffd3700f8.jpg",
-      "https://i.pinimg.com/1200x/a5/67/4c/a5674c4086f6a9876fc9feb365204eb9.jpg",
-    ],
+    images: [imgmk1a, imgmk1b],
     title: "MK-01",
     subtitle: "Comparta y fácil de usar",
     description: [
@@ -35,10 +38,7 @@ const product_list = [
   },
   {
     id: 2,
-    images: [
-      "https://www.timg.pe/cdn/shop/collections/Estampadoras-de-escritorio-y-hornos-5.webp?v=1715875767&width=750",
-      "https://i.pinimg.com/736x/6c/20/8e/6c208e0e9b45f91e535eb5eedf37772f.jpg",
-    ],
+    images: [imgmk2a, imgmk2b],
     title: "MK-02",
     subtitle: "Supercifie amplia y versátil",
     description: [
@@ -49,6 +49,21 @@ const product_list = [
       "Área de trabajo más grande para proyectos variados",
       "Sistema de ajuste de presión mejorado",
       "Estructura reforzada para uso intensivo",
+    ],
+  },
+  {
+    id: 3,
+    images: [imgmk3a, imgmk3b],
+    title: "MK-03",
+    subtitle: "Potencia industrial, precisión digital",
+    description: [
+      "Estampadora profesional de nueva generación.",
+      "La MK-03 combina potencia industrial con control digital avanzado. Diseñada para altos volúmenes de trabajo, integra sensores inteligentes que garantizan presión y temperatura constantes, optimizando cada impresión con máxima eficiencia y consistencia.",
+    ],
+    description_items: [
+      "Pantalla táctil con control de temperatura y tiempo en tiempo real",
+      "Sensores inteligentes de presión automática",
+      "Construcción metálica de alta resistencia para uso prolongado",
     ],
   },
 ];
